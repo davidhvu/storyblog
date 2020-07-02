@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Sawarabi+Mincho&display=swap');
+
+h1 {
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+p {
+    color: white;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+#bg {
+    background-color: black;
+}
+
