@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Sawarabi+Mincho&display=swap');
 
+body {
+    padding-top: 4rem;
+}
+
 h1 {
     color: white;
     font-family: 'Noto Sans JP', sans-serif;
@@ -11,6 +15,9 @@ p {
 }
 
 #bg {
-    background-color: black;
+    background-color: #343A40;
 }
 
+.jumbotron {
+    background-color: #343A40 !important;
+}
