@@ -24,3 +24,7 @@ p, ul, li {
 #entries-title {
     margin-bottom: 2rem;
 }
+
+form {
+    color: white;
+}
