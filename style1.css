@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Sawarabi+Mincho&display=swap');
 
-body {
-    padding-top: -4rem;
-}
 
 h1, h2, h3, h4 {
     color: white;
@@ -20,8 +17,10 @@ p, ul, li {
 
 .jumbotron {
     background-color: #343A40 !important;
+    margin-bottom: -2rem !important;
+    
 }
 
-#section-post {
-    padding-right: 16rem !important;
+#entries-title {
+    margin-bottom: 2rem;
 }
