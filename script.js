@@ -72,6 +72,7 @@ const entries = [{
     `
 }]
     
+
 const addEntries = function (title, date, entry) {
     entries.title.push()
     entries.date.push()
