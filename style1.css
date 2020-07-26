@@ -28,3 +28,7 @@ p, ul, li {
 form {
     color: white;
 }
+
+#email-bg {
+    background-color: #5A6268
+}

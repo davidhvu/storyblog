@@ -71,11 +71,44 @@ const entries = [{
     <i>G.</i>    
     `
 }]
-    
 
-const addEntries = function (title, date, entry) {
-    entries.title.push()
-    entries.date.push()
-    entries.entry.push()
-    return [title, date, entry]
+document.querySelector("#search-btn").onclick = function searchFilter(title, filters) {
+    
 }
+
+// Filter Functions(WIP)
+
+// const filters = {
+//     searchText: ""
+// }
+
+// const renderSearch = function (title, filters) {
+//     const filteredTitles = entries.filter(function (title) {
+//         return entries.title.toLowerCase().includes(filters.searchText.toLowerCase())
+//     })
+
+//     document.querySelector("#entries-section").innerHTML = ""
+
+//     filteredTitles.forEach(function (searchTitle) {
+//         const header = document.createElement('h3')
+//         header.textContent = searchTitle.title
+//         document.querySelector("#entries-section").appendChild(header)
+//     })
+// }
+
+
+// renderSearch(entries, filters)
+
+// document.querySelector("#search-title").addEventListener("input", function (e) {
+//     filters.searchText = e.target.value
+//     renderSearch(entries, filters)
+// })
+
+// Add Entries(WIP)
+
+// const addEntries = function (title, date, entry) {
+//     entries.title.push()
+//     entries.date.push()
+//     entries.entry.push()
+//     return [title, date, entry]
+// }
