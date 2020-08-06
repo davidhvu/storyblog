@@ -104,11 +104,20 @@ document.querySelector("#search-btn").onclick = function searchFilter(title, fil
 //     renderSearch(entries, filters)
 // })
 
-// Add Entries(WIP)
+let pastEntries = []
 
-// const addEntries = function (title, date, entry) {
-//     entries.title.push()
-//     entries.date.push()
-//     entries.entry.push()
-//     return [title, date, entry]
-// }
+// Add Entries(WIP)
+document.querySelector("#add-entry").addEventListener("submit", function (e) {
+    e.preventDefault()
+    let addTitle = e.target.elements.addTitle.value
+    let addEntry = e.target.elements.addEntry.value
+    let addDate = e.target.elements.addDate.value
+    pastEntries.push(entries.shift())
+    entries.push({
+        title: addTitle,
+        entry: addEntry,
+        date: addDate
+    })
+    console.log(pastEntries)
+    console.log(entries)
+})

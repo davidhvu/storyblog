@@ -147,24 +147,37 @@
              <!--Email Sign Up-->
         <div class="container" id="email-bg">
             <div class="row justify-content-center">
-                    <h2>Stay connected with us.</h2>
+                    <h2>New Entry</h2>
             </div>
-            <div class="row">
-                <div class="col"></div>
-                <div class="col-8">
-                    <form>
-                        <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name_lorem@example.com">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <form id="add-entry">
+                        <div class="form-row">
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="Title" name="addTitle">
+                          </div>
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="Date" name="addDate">
+                          </div>
                         </div>
-                        <input class="btn btn-primary" type="submit" value="Submit">
+                        <div class="form-row ">
+                            <div class="col">
+                                <label for="exampleFormControlTextarea1"></label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder = "Entry" name="addEntry"></textarea>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col">
+                                <button type="submit" class="btn btn-outline-light">Submit</button>
+                            </div>
+                        </div>
                     </form>
                 </div>
-                <div class="col"></div>
             </div>
-            <hr>
         </div>
-
+        <hr>
+        
             <!--Footer-->
             <div class="row">
                 <div class="col">
