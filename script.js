@@ -106,7 +106,7 @@ document.querySelector("#search-btn").onclick = function searchFilter(title, fil
 
 let pastEntries = []
 
-// Add Entries(WIP)
+// Add Entries
 document.querySelector("#add-entry").addEventListener("submit", function (e) {
     e.preventDefault()
     let addTitle = e.target.elements.addTitle.value
