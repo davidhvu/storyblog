@@ -109,15 +109,18 @@ document.querySelector("#search-btn").onclick = function searchFilter(title, fil
 
 // Read and Create Array onto Aprropriate body Sections(WIP)
 
+entries.forEach(entry => console.log(entry))
+
 const renderEntries = function (entry) {
     document.querySelector("#section-post-1").innerHTML = ""
+
     document.querySelector("#section-post-1").appendChild(generateTitleDOM(entries))
     document.querySelector("#section-post-1").appendChild(generateDateDOM(entries))
     document.querySelector("#section-post-1").appendChild(generateEntryDOM(entries))
 
 }
 
-const generateTitleDOM = function (title) {
+const generateTitleDOM = function (title, index) {
     const nameOfTitle = document.createElement("h4")
     nameOfTitle.innerHTML = `<i>${entries[0].title}</i>`
     return nameOfTitle
@@ -134,6 +137,7 @@ const generateEntryDOM = function (entry) {
     entryOfStory.innerHTML = `${entries[0].entry}`
     return entryOfStory
 }
+
 
 renderEntries(entries)
 
